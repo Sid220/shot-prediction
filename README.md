@@ -33,7 +33,7 @@ the
 model's output will be used to control the robot's position and velocity to make the "optimal shot". For now, data
 is [simulated](#Simulation). You can grab the data
 from [https://huggingface.co/datasets/sid220/2713-2024-shot-prediction/blob/main/raycasting_normalised_angles.csv](https://huggingface.co/datasets/sid220/2713-2024-shot-prediction/blob/main/raycasting_normalised_angles.csv).
-Here's the output of the model when the shot is off the horizon 45 degrees, and the chassis is slightly pointing right,
+Here's the output of the model when the x and y are the x and y of the point on the graph, the shot is off the horizon 45 degrees, the chassis is slightly pointing right, and the velocity is 0
 with the red representing the rough location of the goal:
 
 ![Model output](other/predictions.png)
